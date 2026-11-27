@@ -1,0 +1,5 @@
+Model,Selected,Accuracy,Precision,Recall,F1-score,CV accuracy,Training time (s),Prediction time (ms)
+XGBoost,yes,0.9976,0.9977,0.9976,0.9976,0.994,2.3409,1.9429
+Random Forest,,0.9976,0.9977,0.9976,0.9976,0.9967,1.4717,9.2395
+SVM,,0.9976,0.9976,0.9976,0.9976,0.997,0.2884,0.3707
+KNN,,0.9964,0.9965,0.9964,0.9964,0.992,0.0052,1.0837

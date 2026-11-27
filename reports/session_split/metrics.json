@@ -1,0 +1,71 @@
+{
+  "model_name": "XGBoost",
+  "classes": [
+    "Bad",
+    "Come",
+    "Food",
+    "Go",
+    "Good",
+    "Hello",
+    "No",
+    "Please",
+    "Sorry",
+    "Stop",
+    "Thank You",
+    "Water",
+    "Welcome",
+    "Yes"
+  ],
+  "test_accuracy": 0.9976190476190476,
+  "split": "random-stratified",
+  "n_samples": 4200,
+  "best_model": "XGBoost",
+  "selection": "chosen with --model / DEFAULT_MODEL (XGBoost)",
+  "most_accurate_model": "XGBoost",
+  "models": [
+    {
+      "Model": "XGBoost",
+      "Selected": "yes",
+      "Accuracy": 0.9976,
+      "Precision": 0.9977,
+      "Recall": 0.9976,
+      "F1-score": 0.9976,
+      "CV accuracy": NaN,
+      "Training time (s)": 2.3482,
+      "Prediction time (ms)": 1.9172
+    },
+    {
+      "Model": "Random Forest",
+      "Selected": "",
+      "Accuracy": 0.9976,
+      "Precision": 0.9977,
+      "Recall": 0.9976,
+      "F1-score": 0.9976,
+      "CV accuracy": NaN,
+      "Training time (s)": 1.521,
+      "Prediction time (ms)": 9.3197
+    },
+    {
+      "Model": "SVM",
+      "Selected": "",
+      "Accuracy": 0.9976,
+      "Precision": 0.9976,
+      "Recall": 0.9976,
+      "F1-score": 0.9976,
+      "CV accuracy": NaN,
+      "Training time (s)": 0.2939,
+      "Prediction time (ms)": 0.3774
+    },
+    {
+      "Model": "KNN",
+      "Selected": "",
+      "Accuracy": 0.9964,
+      "Precision": 0.9965,
+      "Recall": 0.9964,
+      "F1-score": 0.9964,
+      "CV accuracy": NaN,
+      "Training time (s)": 0.0049,
+      "Prediction time (ms)": 1.1477
+    }
+  ]
+}

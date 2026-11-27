@@ -1,0 +1,11 @@
+# Built for Python 3.11 (3.10 - 3.12 also work with MediaPipe)
+numpy
+pandas
+scikit-learn
+xgboost
+joblib
+matplotlib
+opencv-contrib-python
+mediapipe>=0.10.14
+streamlit>=1.40
+pyttsx3
